@@ -32,7 +32,7 @@ public class Ball extends Sprite implements Commons{
             setXDir(1);
         }
 
-        if(x == WIDTH - i_width) {
+        if(x == WIDTH - 25) {
             setXDir(-1);
         }
 
@@ -57,23 +57,4 @@ public class Ball extends Sprite implements Commons{
     public int getYDir() {
         return ydir;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -22,14 +22,15 @@ public class Paddle extends Sprite implements Commons {
 
     public void move() {
 
-        x += 0;
+        x += dx;
 
         if(x <= 0) {
             x = 0;
         }
 
-        if(x >= WIDTH - i_width) {
-            x = WIDTH - i_width;
+        if(x >= WIDTH - 65) {
+            System.out.println("i_width: " + i_width);
+            x = WIDTH - 65;
         }
     }
 
